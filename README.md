@@ -7,30 +7,30 @@ Fornece uma API que permite ao lojista Cielo realizar pagamento simplificado e m
 ### Índices
 
 - [Overview](#overview)
-- [Built](#built-with)
-- [How To Use](#how-to-use)
+- [Construído](#construído)
+- [Como usar](#como-usar)
 - [Contact](#contact)
 
 ### Overview
 ![screenshot](public/Overview.gif)
 
-### Built With
-- [ReactJS](https://reactjs.org/)
-- [ViteJS](https://vitejs.dev/)
+### Construído
+- [Lumen](https://lumen.laravel.com/)
+- [PHP](https://www.php.net/)
 
-### How To Use
-To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
+### Como usar
+Para clonar e executar este aplicativo, você precisará do Git e do PHP 7.3+ instalados em seu computador. Em sua linha de comando:
 ```bash
 # Clone this repository
-$ git clone https://github.com/saymontavares/react-calculator.git
+$ git clone https://github.com/saymontavares/api-cielo.git
 ```
 ```bash
 # Install dependencies
-$ npm i
+$ composer i
 ```
 ```bash
 # Run the app
-$ npm run dev
+$ php -S localhost:8000 -t public
 ```
 
 ## Contact
